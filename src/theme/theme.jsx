@@ -13,7 +13,7 @@ const CustomTheme = {
         body: `'Montserrat', sans-serif`,
     },
     token: {
-        colorPrimary: '#1bda15',
+        colorPrimary: '#2EC209',
         borderRadius: '5px',
         fontSize: 16,
         fontSizeHeading5: 16
@@ -41,7 +41,7 @@ const GlobalStyles = createGlobalStyle`
         -moz-appearance: textfield;
     }
     .active button {
-        background-color: #1bda15;
+        background-color: #2EC209;
         color: #fff;
         font-weight: 500;
     }
