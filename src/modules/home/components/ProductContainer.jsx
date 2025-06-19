@@ -77,9 +77,10 @@ const ProductContainer = ({category,userId,lang}) => {
                                                 <Input
                                                     value={getCountForItem(get(item, 'id'))}
                                                     min={0}
+                                                    suffix={'L'}
                                                     controls={false}
                                                     type={"number"}
-                                                    style={{textAlign: "center",width: 50}}
+                                                    style={{textAlign: "center",width: 55}}
                                                 />
                                                 <Button
                                                     type={"primary"}

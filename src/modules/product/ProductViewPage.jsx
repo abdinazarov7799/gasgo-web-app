@@ -128,8 +128,9 @@ const ProductViewPage = () => {
                                             value={count}
                                             min={0}
                                             controls={false}
+                                            suffix={'L'}
                                             type={"number"}
-                                            style={{textAlign: "center", width: 50}}
+                                            style={{textAlign: "center", width: 55}}
                                         />
                                         <Button
                                             type={"primary"}
